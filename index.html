@@ -11,7 +11,12 @@
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <input type="password" id="password" placeholder="Password to check..." />
+    <div class="input-frame">
+      <input type="password" id="password" placeholder="Password to check..." />
+      <button class="glow-on-hover">
+        <span>Check Password</span>
+      </button>
+    </div>
     <div class="check-results">
       <span id="upperCase" class="invalid"
         ><i class="bi bi-shield-x"></i> Contain Upper Letter</span
